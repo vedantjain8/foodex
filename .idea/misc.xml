@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Coding/Android/Foodex/app/src/main/res/layout/activity_bill.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android/Foodex/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Coding/Android/Foodex/app/src/main/res/layout/activity_order.sync-conflict-20220724-133532-C5B4ADG.xml" value="0.11614583333333334" />
+        <entry key="..\:/Coding/Android/Foodex/app/src/main/res/layout/activity_order.sync-conflict-20220725-145906-C5B4ADG.xml" value="0.11614583333333334" />
+        <entry key="..\:/Coding/Android/Foodex/app/src/main/res/layout/activity_order.xml" value="0.259375" />
+        <entry key="..\:/Coding/Android/Foodex/app/src/main/res/layout/activity_orderplaced.xml" value="0.264" />
+        <entry key="..\:/Coding/Android/Foodex/app/src/main/res/layout/activity_register.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
