@@ -37,20 +37,14 @@ public class register extends AppCompatActivity {
 
                     login.putExtra("email",email);
                     login.putExtra("password",pass);
-                    startActivity(login);
-                }
+                    startActivity(login);}
                 else{
-                    Toast.makeText(register.this, "Password incorrect", Toast.LENGTH_SHORT).show();
-                }
-            }
+                    Toast.makeText(register.this, "Password incorrect", Toast.LENGTH_SHORT).show();}}
         });
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent login = new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(login);
-            }
-        });
+                startActivity(login);}});
     }
 }

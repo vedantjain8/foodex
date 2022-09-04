@@ -11,8 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="40dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -25,7 +29,6 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="#name x #count"
                 android:textSize="25sp" />
 
             <TextView
@@ -35,7 +38,6 @@
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="#price"
                 android:textSize="25sp" />
         </RelativeLayout>
 
@@ -50,7 +52,6 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:text="#name x #count"
                 android:textSize="25sp" />
 
             <TextView
@@ -58,10 +59,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:text="#price"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -73,20 +73,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:text="#name x #count"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/item3amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:text="#price"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -98,20 +96,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:text="#name x #count"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/item4amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:text="#price"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -123,20 +119,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:text="#name x #count"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/item5amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:text="#price"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -148,20 +142,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:text="#name x #count"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/item6amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
-                android:text="#price"
-                android:textSize="25sp"
+                android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginStart= "10dp" />
+                android:textSize="25sp" />
         </RelativeLayout>
 
     </LinearLayout>
@@ -198,9 +190,9 @@
         android:id="@+id/confirm_bill"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Confirm Order"
-        android:layout_marginEnd="25dp"
         android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="Confirm Order"
         app:cornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -102,8 +102,7 @@ public class order extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (final_amt_btn.getText().toString().equals("0")) {
-                    Toast.makeText(order.this, "Please add some item to cart!", Toast.LENGTH_SHORT).show();
-                }
+                    Toast.makeText(order.this, "Please add some item to cart!", Toast.LENGTH_SHORT).show();                }
                 else {
                     Intent bill = new Intent(getApplicationContext(), bill.class);
                     bill.putExtra("item1count",Integer.toString(item1count));

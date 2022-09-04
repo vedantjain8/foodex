@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">Foodex</string>
     <string name="foodex">FOODEX</string>
+    <string name="login_successfull_string">Login successful!</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="welcome">Welcome!</string>
+    <string name="flat_icon">flat icon</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="register">Register</string>
+    <string name="headlogo_foodex">headlogo-foodex</string>
+    <string name="pizzapng">pizzapng</string>
+    <string name="registeremail">Email</string>
+    <string name="registerpassword">Password</string>
+    <string name="confirmregisterpassword">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="registerbtn">Register</string>
+    <string name="registerscreen_login">Login</string>
+    <string name="greentickpng">greenTickPng</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="home">Home</string>
 </resources>

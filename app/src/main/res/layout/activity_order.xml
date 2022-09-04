@@ -4,31 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:elevation="50dp"
+    android:background="@color/lightgrey"
+    android:orientation="vertical"
     tools:context=".order">
 
 
-    <TextView
-        android:id="@+id/Header_order"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="FOODEX"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/foodexlogo"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="10dp"
+        android:contentDescription="@string/app_name"
         android:paddingTop="5dp"
-        android:contentDescription= "@string/app_name"
+        android:background="@color/lightgrey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,9 +74,9 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginEnd="20dp"
+                    android:hint="140"
                     android:paddingBottom="10dp"
                     android:text="₹140"
-                    android:hint="140"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -120,8 +118,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginEnd="20dp"
-                    android:text="₹90"
                     android:hint="90"
+                    android:text="₹90"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -163,8 +161,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginEnd="20dp"
-                    android:text="₹140"
                     android:hint="140"
+                    android:text="₹140"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -206,8 +204,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginEnd="20dp"
-                    android:text="₹55"
                     android:hint="55"
+                    android:text="₹55"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -249,8 +247,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginEnd="20dp"
-                    android:text="₹180"
                     android:hint="180"
+                    android:text="₹180"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -293,8 +291,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginEnd="20dp"
-                    android:text="₹30"
                     android:hint="30"
+                    android:text="₹30"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -311,8 +309,8 @@
         android:layout_marginBottom="8dp"
         android:orientation="horizontal"
         app:cardCornerRadius="10dp"
-        app:cardMaxElevation="20dp"
         app:cardElevation="16dp"
+        app:cardMaxElevation="20dp"
         app:cardPreventCornerOverlap="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -335,8 +333,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:text="Total Amount: "
-                android:textSize="24sp"
                 android:textColor="@color/black"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -345,12 +343,12 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginEnd="35dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="35dp"
                 android:layout_marginBottom="8dp"
                 android:text="0"
-                android:textSize="24dp"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="24dp" />
         </RelativeLayout>
 
 

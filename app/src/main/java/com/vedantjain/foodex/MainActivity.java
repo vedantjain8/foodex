@@ -8,10 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
     EditText email,password;
     TextView register, resultview;
     Button login;
@@ -42,25 +40,17 @@ public class MainActivity extends AppCompatActivity {
                     if(!password.getText().toString().equals("")){
                         if (email.getText().toString().equals(getIntent().getStringExtra("email")) || email.getText().toString().equals("r")){
                             if (password.getText().toString().equals(getIntent().getStringExtra("password"))|| email.getText().toString().equals("r")){
-                                resultview.setText("Login successfull!");
+                                resultview.setText(R.string.login_successfull_string);
                                 Intent order = new Intent(getApplicationContext(), order.class);
                                 startActivity(order);
                             }
-                            else{
-                                password.setError("Password does not match");
-                            }
+                            else{password.setError("Password does not match");}
                         }
-                        else{
-                            email.setError("No account found");
-                        }
+                        else{email.setError("No account found");}
                     }
-                    else{
-                        password.setError("Please enter password");
-                    }
+                    else{password.setError("Please enter password");}
                 }
-                else{
-                    email.setError("Please enter email");
-                }
+                else{email.setError("Please enter email");}
             }
         });
     }

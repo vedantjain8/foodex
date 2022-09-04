@@ -26,8 +26,7 @@ public class orderplaced extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent gohome = new Intent(getApplicationContext(), order.class);
-                startActivity(gohome);
-            }
+                startActivity(gohome);}
         });
     }
 }

@@ -23,6 +23,7 @@ public class bill extends AppCompatActivity {
 
         confirm_bill=findViewById(R.id.confirm_bill);
 //=========================================================
+
         txtitem1count = findViewById(R.id.item1count);
         txtitem1price = findViewById(R.id.item1amount);
 
@@ -43,6 +44,7 @@ public class bill extends AppCompatActivity {
 
         totalbill_amt = findViewById(R.id.totalamount);
 //=========================================================
+
         txtitem1count.setText(getIntent().getStringExtra("item1count") + " * " +getIntent().getStringExtra("item1name"));
         resultprice =  Integer.parseInt(getIntent().getStringExtra("item1count")) * Integer.parseInt(getIntent().getStringExtra("item1price"));
         txtitem1price.setText(Float.toString(resultprice));
@@ -67,6 +69,7 @@ public class bill extends AppCompatActivity {
         resultprice =  Integer.parseInt(getIntent().getStringExtra("item6count")) * Integer.parseInt(getIntent().getStringExtra("item6price"));
         txtitem6price.setText(Float.toString(resultprice));
 //=========================================================
+
         finalbill_amt = Float.parseFloat(txtitem1price.getText().toString())+Float.parseFloat(txtitem2price.getText().toString())+Float.parseFloat(txtitem3price.getText().toString())+Float.parseFloat(txtitem4price.getText().toString())+Float.parseFloat(txtitem5price.getText().toString())+Float.parseFloat(txtitem6price.getText().toString());
         totalbill_amt.setText(Float.toString(finalbill_amt));
 

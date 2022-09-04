@@ -6,18 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/Header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/foodex"
-        android:textSize="28sp"
-        android:textStyle="bold"
+    <ImageView
+        android:id="@+id/headlogo"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/foodexlogo"
+        android:contentDescription="@string/headlogo_foodex" />
+
+    <ImageView
+        android:id="@+id/flaticonFastFoodImagePng"
+        android:layout_width="256px"
+        android:layout_height="256px"
+        android:contentDescription="@string/flat_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"
+        app:srcCompat="@drawable/fastfood" />
 
     <TextView
         android:id="@+id/loginTextMessageMainActivity"
@@ -25,14 +38,14 @@
         android:layout_height="wrap_content"
         android:elevation="2dp"
         android:gravity="center"
-        android:text="Login to continue"
+        android:text="@string/login_to_continue"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintVertical_bias="0.37" />
 
     <TextView
         android:id="@+id/welcomeTextMessageMainActivity"
@@ -40,95 +53,84 @@
         android:layout_height="wrap_content"
         android:elevation="2dp"
         android:gravity="center"
-        android:text="Welcome!"
+        android:text="@string/welcome"
         android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.273" />
-
-    <ImageView
-        android:id="@+id/flaticonFastFoodImagePng"
-        android:layout_width="256px"
-        android:layout_height="256px"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.827"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27"
-        app:srcCompat="@drawable/fastfood" />
+        app:layout_constraintVertical_bias="0.305" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/txtemailinput_cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="178dp"
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="20dp"
+        app:cardPreventCornerOverlap="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.55"
-        app:cardCornerRadius="8dp"
-        app:cardElevation="20dp"
-        app:cardPreventCornerOverlap="true">
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="178dp">
 
-    <EditText
-        android:id="@+id/txtemailinput"
-        android:layout_width="match_parent"
-        android:layout_height="60sp"
-        android:autofillHints="emailAddress"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/txtemailinput"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:autofillHints="emailAddress"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/txtpasswordinput_cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="178dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="20dp"
+        app:cardPreventCornerOverlap="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.68"
-        app:cardCornerRadius="8dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
-        app:cardElevation="20dp"
-        app:cardPreventCornerOverlap="true">
-    <EditText
-        android:id="@+id/txtpasswordinput"
-        android:layout_width="match_parent"
-        android:layout_height="60sp"
-        android:autofillHints="password"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="178dp">
+
+        <EditText
+            android:id="@+id/txtpasswordinput"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:autofillHints="password"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/loginbtn"
         android:layout_width="230sp"
         android:layout_height="50sp"
-        android:text="Login"
+        android:text="@string/login"
         app:cornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -141,20 +143,21 @@
         android:id="@+id/registertxtview"
         android:layout_width="130sp"
         android:layout_height="wrap_content"
-        android:text="Create new account "
+        android:text="@string/create_new_account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.865" />
+        app:layout_constraintVertical_bias="0.855" />
 
     <TextView
         android:id="@+id/registerbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:text="Register"
+        android:focusable="true"
+        android:text="@string/register"
         android:textColor="@color/hyperlink"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -162,7 +165,7 @@
         app:layout_constraintHorizontal_bias="0.697"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.865"
+        app:layout_constraintVertical_bias="0.855"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
