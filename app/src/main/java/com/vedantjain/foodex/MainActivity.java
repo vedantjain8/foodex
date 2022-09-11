@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     EditText email,password;
     TextView register, resultview;
     Button login;
+    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+.+[a-z]+";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,15 +39,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (!email.getText().toString().equals("")){
                     if(!password.getText().toString().equals("")){
-                        if (email.getText().toString().equals(getIntent().getStringExtra("email")) || email.getText().toString().equals("r")){
-                            if (password.getText().toString().equals(getIntent().getStringExtra("password"))|| email.getText().toString().equals("r")){
-                                resultview.setText(R.string.login_successfull_string);
-                                Intent order = new Intent(getApplicationContext(), order.class);
-                                startActivity(order);
+                        if (email.getText().toString().trim().matches(emailPattern)) {
+                            if (email.getText().toString().equals(getIntent().getStringExtra("email")) || email.getText().toString().equals("r")) {
+                                if (password.getText().toString().equals(getIntent().getStringExtra("password")) || email.getText().toString().equals("r")) {
+                                    resultview.setText(R.string.login_successfull_string);
+                                    Intent order = new Intent(getApplicationContext(), order.class);
+                                    startActivity(order);
+                                } else {
+                                    password.setError("Password does not match");
+                                }
+                            } else {
+                                email.setError("No account found");
                             }
-                            else{password.setError("Password does not match");}
                         }
-                        else{email.setError("No account found");}
+                        else{email.setError("Enter a valid password");}
                     }
                     else{password.setError("Please enter password");}
                 }
