@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\layout_activity_orderplaced.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\layout\\activity_orderplaced.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\layout_activity_bill.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\layout\\activity_bill.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_noodles.jpeg.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\noodles.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_foodexlogo.png.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\foodexlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_coke.png.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\coke.png"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\layout_activity_order.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_green_tick_png.png.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\green_tick_png.png"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_transparentpizza.png.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\transparentpizza.png"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_whitepasta.jpeg.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\whitepasta.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-pngs-20:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_pizza.jpeg.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\pizza.jpeg"
+    },
+    {
+        "merged": "com.vedantjain.foodex.app-merged_res-25:/layout_activity_orderplaced.xml.flat",
+        "source": "com.vedantjain.foodex.app-main-27:/layout/activity_orderplaced.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_frenchfries.jpeg.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\frenchfries.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_fastfood.png.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\fastfood.png"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-merged_res-25:\\drawable_burger.jpeg.flat",
+        "source": "C:\\Users\\Raj\\.gradle\\daemon\\7.3.3\\com.vedantjain.foodex.app-main-27:\\drawable\\burger.jpeg"
+    }
+]

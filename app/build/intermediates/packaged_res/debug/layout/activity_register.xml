@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/foodex"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/flaticonFastFoodImagePng"
+        android:layout_width="850px"
+        android:layout_height="850px"
+        android:contentDescription="@string/pizzapng"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/transparentpizza" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/txtemailinput_cardview_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="20dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523">
+
+        <EditText
+            android:id="@+id/registertxtemailinput"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:autofillHints="emailAddress"
+            android:ems="10"
+            android:hint="@string/registeremail"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/txtpasswordinput_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="20dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622">
+
+        <EditText
+            android:id="@+id/registertxtpasswordinput"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:autofillHints="password"
+            android:ems="10"
+            android:hint="@string/registerpassword"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/txtConfirmpasswordinput_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="20dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724">
+
+        <EditText
+            android:id="@+id/confirmregistertxtpasswordinput"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:autofillHints="password"
+            android:ems="10"
+            android:hint="@string/confirmregisterpassword"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/logintxtview"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="230sp"
+        android:layout_height="50sp"
+        android:text="@string/registerbtn"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <TextView
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/registerscreen_login"
+        android:textColor="@color/hyperlink"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855"
+        tools:ignore="TouchTargetSizeCheck"
+        android:focusable="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
