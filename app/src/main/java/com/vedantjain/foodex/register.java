@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 public class register extends AppCompatActivity {
     String email,pass;
+    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+.+[a-z]+";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,16 +32,26 @@ public class register extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (registerpass.getText().toString().equals(confirmregisterpass.getText().toString())){
-                    email = registeremail.getText().toString();
-                    pass = registerpass.getText().toString();
+                if (registeremail.getText().toString().trim().matches(emailPattern)) {
+                    if (registerpass.getText().toString().length()>8) {
+                        if (registerpass.getText().toString().equals(confirmregisterpass.getText().toString())) {
+                            email = registeremail.getText().toString();
+                            pass = registerpass.getText().toString();
 
-                    login.putExtra("email",email);
-                    login.putExtra("password",pass);
-                    startActivity(login);}
+                            login.putExtra("email", email);
+                            login.putExtra("password", pass);
+                            startActivity(login);
+                        } else {
+                            Toast.makeText(register.this, "Password incorrect", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                    else{Toast.makeText(register.this,"Enter a strong password",Toast.LENGTH_SHORT).show();}
+                }
                 else{
-                    Toast.makeText(register.this, "Password incorrect", Toast.LENGTH_SHORT).show();}}
-        });
+                    Toast.makeText(register.this,"Enter a valid email", Toast.LENGTH_SHORT).show();
+                }
+            }
+            });
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
