@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                                 email.setError("No account found");
                             }
                         }
-                        else{email.setError("Enter a valid password");}
+                        else{email.setError("Enter a valid email");}
                     }
                     else{password.setError("Please enter password");}
                 }
